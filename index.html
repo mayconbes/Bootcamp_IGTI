@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width-device-width" , initial-scale="1.0" />
+    <title>Desafio prático - IGTI</title>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+
+  <body>
+    <h1>Desafio prático 01 - IGTI</h1>
+    <div class="coluna1">
+      <p>(R) Vermelho:</p>
+      <p>(G) Verde:</p>
+      <p>(B) Azul:</p>
+    </div>
+
+    <div class="coluna2">
+      <p>
+        <input class="r1" type="range" min="0" max="255" id="r" value="0" />
+      </p>
+      <p>
+        <input class="r2" type="range" min="0" max="255" id="g" value="0" />
+      </p>
+      <p>
+        <input class="r3" type="range" min="0" max="255" id="b" value="0" />
+      </p>
+    </div>
+
+    <div class="coluna3">
+      <p>
+        <input class="i1" type="text" id="rtext" value="0" disabled />
+      </p>
+      <p>
+        <input class="i2" type="text" id="gtext" value="0" disabled />
+      </p>
+      <p>
+        <input class="i3" type="text" id="btext" value="0" disabled />
+      </p>
+    </div>
+
+    <div id="resultado"></div>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
